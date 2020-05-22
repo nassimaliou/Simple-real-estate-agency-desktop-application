@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="589.0" prefWidth="767.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller11">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" onMouseEntered="#etat_normal" prefHeight="627.0" prefWidth="767.0" style="-fx-background-color: #ffffff;" VBox.vgrow="ALWAYS">
+      <children>
+            <AnchorPane layoutX="-1.0" prefHeight="589.0" prefWidth="313.0" style="-fx-background-color: #131965;">
+               <children>
+                  <Circle fill="#131965" layoutX="45.0" layoutY="33.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="-81.0" endY="-34.0" layoutX="129.0" layoutY="77.0" startX="-91.121337890625" startY="-44.0" stroke="WHITE" strokeWidth="3.0" />
+                  <Line endX="-89.0" endY="-59.0" layoutX="137.0" layoutY="82.0" startX="-99.0" startY="-49.0" stroke="WHITE" strokeWidth="3.0" />
+                  <Label layoutX="12.0" layoutY="66.0" prefHeight="53.0" prefWidth="292.0" text="Modification" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="42.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="retour" layoutX="33.0" layoutY="21.0" mnemonicParsing="false" onAction="#precedent" prefHeight="0.0" prefWidth="24.0" style="-fx-background-color: transparent;" text="Button">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="12.0" layoutY="128.0" prefHeight="53.0" prefWidth="292.0" text="d'un bien" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="42.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <MenuButton fx:id="type_bien" layoutX="376.0" layoutY="27.0" mnemonicParsing="false" text="Type de bien">
+              <items>
+                  <RadioMenuItem fx:id="t_maison" mnemonicParsing="false" text="maison" />
+                  <RadioMenuItem fx:id="t_terrain" mnemonicParsing="false" text="terrain" />
+                  <RadioMenuItem fx:id="t_appart" mnemonicParsing="false" text="appart" />
+              </items>
+            </MenuButton>
+            <MenuButton fx:id="nature" layoutX="588.0" layoutY="27.0" mnemonicParsing="false" text="Nature de transaction">
+              <items>
+                <RadioMenuItem fx:id="vente" mnemonicParsing="false" text="Vente" />
+                <RadioMenuItem fx:id="location_" mnemonicParsing="false" text="Location" />
+                  <RadioMenuItem fx:id="echange" mnemonicParsing="false" text="Echange" />
+              </items>
+            </MenuButton>
+            <MenuButton fx:id="wilaya" layoutX="379.0" layoutY="73.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Wilaya">
+              <items>
+                <RadioMenuItem fx:id="w1" mnemonicParsing="false" text="Wilaya 1" />
+                <RadioMenuItem fx:id="w2" mnemonicParsing="false" text="Wilaya 2" />
+                  <RadioMenuItem fx:id="w3" mnemonicParsing="false" text="Wilaya 3" />
+              </items>
+            </MenuButton>
+            <TextField fx:id="superficie" layoutX="587.0" layoutY="73.0" promptText="Superficie" />
+            <MenuButton fx:id="prop" layoutX="379.0" layoutY="121.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Proprietaire">
+              <items>
+                <RadioMenuItem fx:id="p1" mnemonicParsing="false" text="Proprietaire 1" />
+                <RadioMenuItem fx:id="p2" mnemonicParsing="false" text="Proprietaire 2" />
+                  <RadioMenuItem fx:id="p3" mnemonicParsing="false" text="Proprietaire 3" />
+                  <RadioMenuItem fx:id="p4" mnemonicParsing="false" text="Proprietaire 4" />
+                  <RadioMenuItem fx:id="ajout_prop" mnemonicParsing="false" text="Ajouter un proprietaire" />
+              </items>
+            </MenuButton>
+            <RadioButton fx:id="meuble" layoutX="380.0" layoutY="237.0" mnemonicParsing="false" text="meublé" />
+            <TextField fx:id="nb_piece" layoutX="587.0" layoutY="233.0" promptText="nombre de pieces" />
+            <TextField fx:id="etage" layoutX="344.0" layoutY="305.0" prefHeight="25.0" prefWidth="88.0" promptText="etage" />
+            <MenuButton fx:id="equipement" layoutX="345.0" layoutY="378.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="169.0" text="Equipement de la maison">
+               <items>
+                  <RadioMenuItem fx:id="garage" mnemonicParsing="false" text="Garage" />
+                  <RadioMenuItem fx:id="piscine" mnemonicParsing="false" text="Piscine" />
+                  <RadioMenuItem fx:id="jardin" mnemonicParsing="false" text="jardin" />
+               </items>
+            </MenuButton>
+            <TextField fx:id="superficie_hab" layoutX="587.0" layoutY="378.0" promptText="Superficie habitable" />
+            <TextField fx:id="nb_etage" layoutX="470.0" layoutY="422.0" promptText="nombre d'etages" />
+            <MenuButton fx:id="statut_juridique" layoutX="360.0" layoutY="489.0" mnemonicParsing="false" text="Statut juridique">
+               <items>
+                  <RadioMenuItem fx:id="papier_timbre" mnemonicParsing="false" text="Papier timbré" />
+                  <RadioMenuItem fx:id="autre" mnemonicParsing="false" text="Autre" />
+               </items>
+            </MenuButton>
+            <TextField fx:id="nb_facade" layoutX="592.0" layoutY="489.0" prefHeight="25.0" prefWidth="139.0" promptText="nombre de façades" />
+            <Line endX="278.0" layoutX="446.0" layoutY="221.0" opacity="0.5" startX="-100.0" />
+            <Line endX="278.0" layoutX="446.0" layoutY="288.0" opacity="0.5" startX="-70.0" />
+            <Line endX="278.0" layoutX="438.0" layoutY="361.0" opacity="0.5" startX="-66.0" />
+            <Line endX="278.0" layoutX="446.0" layoutY="478.0" opacity="0.5" startX="-100.0" />
+            <Text layoutX="350.0" layoutY="218.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Bien habitable" />
+            <Text layoutX="376.0" layoutY="284.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Appartement" />
+            <Text layoutX="378.0" layoutY="358.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Maison" />
+            <Text layoutX="353.0" layoutY="474.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Terrain" />
+            <TextField fx:id="prix" layoutX="345.0" layoutY="166.0" prefHeight="25.0" prefWidth="102.0" promptText="Prix du bien" />
+            <Button fx:id="confirmer" layoutX="482.0" layoutY="532.0" mnemonicParsing="false" onAction="#modif_bien" text="Confirmer" />
+            <TextField fx:id="adresse" layoutX="592.0" layoutY="166.0" prefHeight="25.0" prefWidth="139.0" promptText="adresse" />
+            <MenuButton fx:id="wilaya_echange" layoutX="458.0" layoutY="166.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Wilaya d'echange">
+               <items>
+                  <RadioMenuItem fx:id="wil1_ech" mnemonicParsing="false" text="Wilaya 1" />
+                  <RadioMenuItem fx:id="wil2_ech" mnemonicParsing="false" text="Wilaya 2" />
+                  <RadioMenuItem fx:id="wil3_ech" mnemonicParsing="false" text="Wilaya 3" />
+               </items>
+            </MenuButton>
+            <RadioButton fx:id="ascenseur" layoutX="486.0" layoutY="309.0" mnemonicParsing="false" text="ascenseur" />
+            <TextField fx:id="type_appart" layoutX="587.0" layoutY="305.0" promptText="Type d'appartement" />
+            <RadioButton fx:id="negociable1" layoutX="594.0" layoutY="126.0" mnemonicParsing="false" text="Prix negociable" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

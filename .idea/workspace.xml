@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TP-2019-2020" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cc6bfcb-402e-4215-a7be-396504e02747" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UXMbFwUzxNsgLZ3tCIDourg5K4" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ESI\2CP\POO\TP-2019-2020\src\sample" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ESI\2CP\POO\TP-2019-2020\src\sample" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AppFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppFX" />
+      <module name="TP-2019-2020" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="TP-2019-2020" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;E:\ESI\2CP\POO\javafx-sdk-12.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TD_Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TD_Graph" />
+      <module name="TP-2019-2020" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="TP-2019-2020" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;E:\ESI\2CP\POO\javafx-sdk-12.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app" />
+      <module name="TP-2019-2020" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.app" />
+      <item itemvalue="Application.AppFX" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TD_Graph" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TD_Graph" />
+        <item itemvalue="Application.AppFX" />
+        <item itemvalue="Application.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cc6bfcb-402e-4215-a7be-396504e02747" name="Default Changelist" comment="" />
+      <created>1575498555732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575498555732</updated>
+      <workItem from="1575498558652" duration="19628000" />
+      <workItem from="1575753592035" duration="2035000" />
+      <workItem from="1576257153952" duration="184000" />
+      <workItem from="1576263571544" duration="75000" />
+      <workItem from="1576274773698" duration="1021000" />
+      <workItem from="1577905002244" duration="393000" />
+      <workItem from="1578212767498" duration="2298000" />
+      <workItem from="1578327882299" duration="6975000" />
+      <workItem from="1578345414405" duration="7209000" />
+      <workItem from="1578408033754" duration="8128000" />
+      <workItem from="1578483104432" duration="73820000" />
+      <workItem from="1578777459964" duration="3227000" />
+      <workItem from="1578783375910" duration="1157000" />
+      <workItem from="1579079007737" duration="8550000" />
+      <workItem from="1579098971558" duration="2095000" />
+      <workItem from="1579172390245" duration="974000" />
+      <workItem from="1579174976310" duration="1403000" />
+      <workItem from="1579187369426" duration="752000" />
+      <workItem from="1579445538406" duration="4885000" />
+      <workItem from="1579455955757" duration="745000" />
+      <workItem from="1579544402960" duration="163000" />
+      <workItem from="1579676149557" duration="4784000" />
+      <workItem from="1579687137241" duration="8616000" />
+      <workItem from="1579802985641" duration="1949000" />
+      <workItem from="1580059841416" duration="4079000" />
+      <workItem from="1580142160329" duration="32764000" />
+      <workItem from="1580253891085" duration="3472000" />
+      <workItem from="1580257446699" duration="29153000" />
+      <workItem from="1580315941485" duration="55669000" />
+      <workItem from="1580403022543" duration="332000" />
+      <workItem from="1580469812276" duration="982000" />
+      <workItem from="1580638960722" duration="433000" />
+      <workItem from="1580645257479" duration="222000" />
+      <workItem from="1580722411217" duration="1961000" />
+      <workItem from="1581168904936" duration="793000" />
+      <workItem from="1585221256378" duration="262000" />
+      <workItem from="1586018804599" duration="113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

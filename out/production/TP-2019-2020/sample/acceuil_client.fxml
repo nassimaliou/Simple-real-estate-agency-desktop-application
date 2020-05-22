@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="542.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller7">
+   <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="516.0" prefWidth="720.0" style="-fx-background-color: #ffffff;" VBox.vgrow="ALWAYS">
+         <children>
+            <AnchorPane prefHeight="542.0" prefWidth="371.0" style="-fx-background-color: #131965;">
+               <children>
+                  <Circle fill="#131965" layoutX="45.0" layoutY="33.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="-81.0" endY="-34.0" layoutX="129.0" layoutY="77.0" startX="-91.121337890625" startY="-44.0" stroke="WHITE" strokeWidth="3.0" />
+                  <Line endX="-89.0" endY="-59.0" layoutX="137.0" layoutY="82.0" startX="-99.0" startY="-49.0" stroke="WHITE" strokeWidth="3.0" />
+                  <Label layoutX="64.0" layoutY="77.0" prefHeight="43.0" prefWidth="144.0" text="Acceuil" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="44.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="26.0" layoutY="208.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <AnchorPane layoutX="26.0" layoutY="294.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <AnchorPane layoutX="26.0" layoutY="251.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <Button fx:id="visual_liste_b" layoutX="34.0" layoutY="208.0" mnemonicParsing="false" onAction="#visualisation_liste_bien" onMouseEntered="#op1_mouse" onMouseExited="#op1_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Visualisation de la liste des biens" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="message" layoutX="33.0" layoutY="294.0" mnemonicParsing="false" onAction="#envoyer_msg" onMouseEntered="#op3_mouse" onMouseExited="#op3_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Contacter le service" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="rech_critere" layoutX="32.0" layoutY="251.0" mnemonicParsing="false" onAction="#recherche" onMouseEntered="#op2_mouse" onMouseExited="#op2_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Rechercher un bien" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="retour" layoutX="33.0" layoutY="21.0" mnemonicParsing="false" onAction="#precedent" prefHeight="0.0" prefWidth="24.0" style="-fx-background-color: transparent;" text="Button">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="521.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller5">
+   <children>
+      <Label layoutX="176.0" layoutY="14.0" text="Affichage detaillé : " textAlignment="CENTER">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="52.0" text="Type du bien :" />
+      <Label layoutX="28.0" layoutY="77.0" text="Nature de la transaction :" />
+      <Label layoutX="28.0" layoutY="102.0" text="Proprietaire," />
+      <Label layoutX="29.0" layoutY="185.0" text="Wilaya :" />
+      <Label layoutX="29.0" layoutY="211.0" text="Superficie :" />
+      <Label layoutX="29.0" layoutY="237.0" text="Prix negociable :" />
+      <Label layoutX="29.0" layoutY="261.0" text="Adresse :" />
+      <Label layoutX="29.0" layoutY="286.0" text="Meublé :" />
+      <Label layoutX="29.0" layoutY="313.0" text="Nombre de pieces :" />
+      <Label layoutX="29.0" layoutY="341.0" text="Etage :" />
+      <Label layoutX="29.0" layoutY="366.0" text="Asenceur :" />
+      <Label layoutX="29.0" layoutY="395.0" text="Type d'appartement :" />
+      <Label layoutX="29.0" layoutY="423.0" text="Equipement de la maison :" />
+      <Label layoutX="29.0" layoutY="451.0" text="Superficie habitable :" />
+      <Label layoutX="28.0" layoutY="478.0" text="Nombre d'etages :" />
+      <Label layoutX="26.0" layoutY="505.0" text="Nombre de façades :" />
+      <Label layoutX="25.0" layoutY="535.0" text="Statue juridique :" />
+      <Button fx:id="afficher_prix_finale" layoutX="230.0" layoutY="530.0" mnemonicParsing="false" onAction="#afficher_prix_finale" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000; -fx-border-radius: 1;" text="AFFICHER PRIX FINALE :">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="472.0" layoutY="533.0" text="DA.">
+         <font>
+            <Font name="Segoe UI" size="17.0" />
+         </font>
+      </Label>
+      <Text fx:id="type_det" fill="#131965" layoutX="180.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="nature_det" fill="#131965" layoutX="180.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="nom_prop" fill="#131965" layoutX="105.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="135.0">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="wilaya_det" fill="#131965" layoutX="227.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="superficie_det" fill="#131965" layoutX="227.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="negociable_det" fill="#131965" layoutX="227.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="adresse_det" fill="#131965" layoutX="227.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="meuble_det" fill="#131965" layoutX="227.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="nb_piece_det" fill="#131965" layoutX="227.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="etage_det" fill="#131965" layoutX="227.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="asenceur_det" fill="#131965" layoutX="227.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="type_appart_det" fill="#131965" layoutX="227.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="equipe_det" fill="#131965" layoutX="227.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="sup_habitable_det" fill="#131965" layoutX="226.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="nb_etage_det" fill="#131965" layoutX="227.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="nb_facade_det" fill="#131965" layoutX="227.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="161.13671875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="statu_det" fill="#131965" layoutX="131.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="90.0">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="prix_finale_det" fill="#131965" layoutX="374.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="98.0">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Label layoutX="64.0" layoutY="125.0" text="Nom :" />
+      <Label layoutX="62.0" layoutY="151.0" text="Prenom :" />
+      <Text fx:id="prenom_prop" fill="#131965" layoutX="112.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="135.0">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Label layoutX="261.0" layoutY="125.0" text="Mail :" />
+      <Label layoutX="259.0" layoutY="151.0" text="Telephone :" />
+      <Text fx:id="mail_prop" fill="#131965" layoutX="299.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="154.5">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="telephone_prop" fill="#131965" layoutX="326.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="154.5">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Label layoutX="259.0" layoutY="102.0" text="Adresse :" />
+      <Text fx:id="adresse_prop" fill="#131965" layoutX="316.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="169.5">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Label fx:id="wilaya_ech_label" layoutX="317.0" layoutY="77.0" text="Wilaya d'echange :" />
+      <Text fx:id="wilaya_echage_det" fill="#131965" layoutX="419.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="90.0">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Text>
+      <Circle fill="#b4b5bf" layoutX="27.0" layoutY="27.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Line endX="-81.0" endY="-34.0" layoutX="111.0" layoutY="71.0" startX="-91.121337890625" startY="-44.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-89.0" endY="-59.0" layoutX="119.0" layoutY="76.0" startX="-99.0" startY="-49.0" stroke="WHITE" strokeWidth="3.0" />
+      <Button fx:id="retour" layoutX="15.0" layoutY="15.0" mnemonicParsing="false" onAction="#precedent" prefHeight="0.0" prefWidth="24.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

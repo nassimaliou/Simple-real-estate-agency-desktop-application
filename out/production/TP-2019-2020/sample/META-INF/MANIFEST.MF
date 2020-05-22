@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: sample.Main
+Class-Path: E:\ESI\2CP\POO\TP-2019-2020\src\sample
+

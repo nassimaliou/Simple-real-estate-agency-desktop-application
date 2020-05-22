@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#etat_nrml" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller14">
+   <children>
+      <TextField fx:id="msg_envoie" layoutX="215.0" layoutY="243.0" prefHeight="136.0" prefWidth="331.0" />
+      <AnchorPane layoutY="-1.0" prefHeight="407.0" prefWidth="200.0" style="-fx-background-color: #131965;">
+         <children>
+            <Label layoutX="17.0" layoutY="85.0" text="Contactez-nous" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Circle fill="#131965" layoutX="45.0" layoutY="31.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+            <Line endX="-81.0" endY="-34.0" layoutX="129.0" layoutY="75.0" startX="-91.121337890625" startY="-44.0" stroke="WHITE" strokeWidth="3.0" />
+            <Line endX="-89.0" endY="-59.0" layoutX="137.0" layoutY="80.0" startX="-99.0" startY="-49.0" stroke="WHITE" strokeWidth="3.0" />
+            <Button fx:id="retour10" layoutX="30.0" layoutY="16.0" mnemonicParsing="false" onAction="#precedent10" prefHeight="30.0" prefWidth="29.0" style="-fx-background-color: transparent;" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <AnchorPane layoutX="14.0" layoutY="310.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+            <Button fx:id="envoi" layoutX="20.0" layoutY="310.0" mnemonicParsing="false" onAction="#envoi_msg" onMouseEntered="#suppr_mouse" onMouseExited="#suppr_mouse_b" prefHeight="39.0" prefWidth="167.0" style="-fx-background-color: #131965;" text="Envoyer" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="217.0" layoutY="34.0" text="Type de bien" />
+      <Label layoutX="217.0" layoutY="91.0" text="Wilaya" />
+      <Label layoutX="219.0" layoutY="216.0" text="Votre message" />
+      <TextField fx:id="msg_adr" layoutX="215.0" layoutY="174.0" />
+      <Label layoutX="213.0" layoutY="151.0" text="Adresse du bien" />
+      <MenuButton layoutX="215.0" layoutY="60.0" mnemonicParsing="false" text="Type de bien">
+         <items>
+            <RadioMenuItem fx:id="msg_terrain" mnemonicParsing="false" text="Terrain" />
+            <RadioMenuItem fx:id="msg_appart" mnemonicParsing="false" text="Appartement" />
+            <RadioMenuItem fx:id="msg_maison" mnemonicParsing="false" text="Maison" />
+         </items>
+      </MenuButton>
+      <MenuButton layoutX="215.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Wilaya">
+         <items>
+            <RadioMenuItem fx:id="msg_w1" mnemonicParsing="false" text="Wilaya1" />
+            <RadioMenuItem fx:id="msg_w2" mnemonicParsing="false" text="Wilaya2" />
+            <RadioMenuItem fx:id="msg_w3" mnemonicParsing="false" text="Wilaya3" />
+         </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="542.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="516.0" prefWidth="720.0" style="-fx-background-color: #ffffff;" VBox.vgrow="ALWAYS">
+      <children>
+            <AnchorPane prefHeight="542.0" prefWidth="371.0" style="-fx-background-color: #131965;">
+               <children>
+                  <Circle fill="#131965" layoutX="45.0" layoutY="33.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="-81.0" endY="-34.0" layoutX="129.0" layoutY="77.0" startX="-91.121337890625" startY="-44.0" stroke="WHITE" strokeWidth="3.0" />
+                  <Line endX="-89.0" endY="-59.0" layoutX="137.0" layoutY="82.0" startX="-99.0" startY="-49.0" stroke="WHITE" strokeWidth="3.0" />
+                  <Label layoutX="50.0" layoutY="71.0" prefHeight="43.0" prefWidth="144.0" text="Acceuil" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="44.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="26.0" layoutY="180.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <AnchorPane layoutX="26.0" layoutY="352.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <AnchorPane layoutX="26.0" layoutY="309.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <AnchorPane layoutX="26.0" layoutY="266.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <AnchorPane layoutX="26.0" layoutY="223.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <Button fx:id="op1" layoutX="34.0" layoutY="180.0" mnemonicParsing="false" onAction="#visualisation_liste_bien" onMouseEntered="#op1_mouse" onMouseExited="#op1_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Visualisation de la liste des biens" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="op3" layoutX="33.0" layoutY="266.0" mnemonicParsing="false" onAction="#rech_admin" onMouseEntered="#op3_mouse" onMouseExited="#op3_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Filtrage par critères" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="op5" layoutX="32.0" layoutY="309.0" mnemonicParsing="false" onAction="#aff_archive" onMouseEntered="#op5_mouse" onMouseExited="#op5_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Afficher les biens archivés" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="op6" layoutX="31.0" layoutY="352.0" mnemonicParsing="false" onAction="#ajout_bien" onMouseEntered="#op6_mouse" onMouseExited="#op6_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Ajouter un Bien" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="op2" layoutX="32.0" layoutY="223.0" mnemonicParsing="false" onAction="#visu_prop" onMouseEntered="#op2_mouse" onMouseExited="#op2_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Visualisation de la liste des proprietaires" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="retour" layoutX="33.0" layoutY="21.0" mnemonicParsing="false" onAction="#precedent" prefHeight="0.0" prefWidth="24.0" style="-fx-background-color: transparent;" text="Button">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <AnchorPane layoutX="26.0" layoutY="396.0" prefHeight="40.0" prefWidth="5.0" style="-fx-background-color: #ffffff;" />
+                  <Button fx:id="msg" layoutX="31.0" layoutY="396.0" mnemonicParsing="false" onAction="#aff_boite" onMouseEntered="#opmsg_mouse" onMouseExited="#opmsg_mouse_b" prefHeight="39.0" prefWidth="292.0" style="-fx-background-color: #131965;" text="Consulter Boite" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
